@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4dbedd5-e864-4226-bf8f-176af3e2cb6c" name="Default" comment="">
+    <list default="true" id="d4dbedd5-e864-4226-bf8f-176af3e2cb6c" name="Default" comment="first java code">
       <change afterPath="$USER_HOME$/3D Objects/desktop.ini" afterDir="false" />
       <change afterPath="$USER_HOME$/AppData/Local/Adobe/AAMUpdater/1.0/CSUTracker.sig" afterDir="false" />
       <change afterPath="$USER_HOME$/IdeaProjects/day01/.idea/description.html" afterDir="false" />
@@ -13,6 +13,8 @@
       <change afterPath="$USER_HOME$/IdeaProjects/day01/day01.iml" afterDir="false" />
       <change afterPath="$USER_HOME$/IdeaProjects/day01/src/com/company/Main.java" afterDir="false" />
       <change afterPath="$USER_HOME$/IdeaProjects/day01/src/com/company/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MyClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="187">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -36,8 +38,12 @@
       <file leaf-file-name="MyClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MyClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="277">
+              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +98,17 @@
             <path>
               <item name="JavaDay01" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDay01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDay01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDay01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDay01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDay01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,17 +165,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32775453" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33050847" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32914925" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963924" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -171,11 +189,14 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32911393" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first java code" />
+    <option name="LAST_COMMIT_MESSAGE" value="first java code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
@@ -189,11 +210,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day01.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/day01.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -201,15 +223,22 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/MyClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="277">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day01.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>

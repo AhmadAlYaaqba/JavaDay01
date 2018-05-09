@@ -30,4 +30,42 @@ public class MyClass {
             }
         }
     }
+
+    public void acceptAndReverse (){
+        int[] arrOfInts = new int [5];
+        Scanner sc=new Scanner(System.in);
+
+        for (int i = arrOfInts.length - 1; i >= 0; i--){
+            System.out.println("please enter a number");
+            int userInput=sc.nextInt();
+            arrOfInts[i]=userInput;
+        };
+        System.out.println(Arrays.toString(arrOfInts));
+    }
+
+    public void acceptAndReversMe (){
+        int[] arrOfInts = new int [10];
+        Scanner sc=new Scanner(System.in);
+        for (int i=0;i < 5;i++){
+            System.out.println("please enter a number");
+            int userInput=sc.nextInt();
+            arrOfInts[i]=userInput;
+        }
+        int counter = 0;
+        for (int i =arrOfInts.length -1 ; i >= 5 ; i--) {
+            arrOfInts[i]=arrOfInts[counter];
+            counter++;
+        }
+        System.out.println(Arrays.toString(arrOfInts));
+    }
+    public void repeatString(String str, int count) {
+            String str1="";
+        while (count>0){
+            str1+=str;
+            count--;
+        }
+        System.out.println(str1);
+    }
+
 }
+
